@@ -6,4 +6,4 @@ Use the following command to pull and run the container locally. A local directo
 
 The application can be accessed in any browser locally through port `5000` in the above case.
 
-Docker image: `https://hub.docker.com/repository/docker/tkdutta/emotiondetector/general`
+Docker image: https://hub.docker.com/repository/docker/tkdutta/emotiondetector/general
