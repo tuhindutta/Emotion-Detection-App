@@ -58,7 +58,10 @@ def gen(video_path, width=1200, height=400, data_path='./uploads/data.json'):
                 with open(data_path, "w") as outfile:
                     outfile.write(json_object)
 
-            emot_graph = custom_concat(*graphs) if num_persons > 1 else graphs[0] 
+            if len(graphs) <= 10:
+                emot_graph = custom_concat(*graphs) if num_persons > 1 else graphs[0]
+            else:
+                emot_graph = custom_concat(*graphs[:10]) if num_persons > 1 else graphs[0]
         else:
             visualize.visualize("unknown", dict(zip(list(visualize.line_angles.keys())[:-1], [0,0,0,0,0,0,0])))
             emot_graph = visualize.plane
