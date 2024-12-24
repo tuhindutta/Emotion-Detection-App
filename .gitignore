@@ -1,9 +1,2 @@
 # Ignore the 'emotion' directory
 emotion/
-
-# Ignore common system files
-.DS_Store
-Thumbs.db
-
-# Ignore Python-related files
-__pycache__/
