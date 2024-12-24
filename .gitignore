@@ -7,22 +7,3 @@ Thumbs.db
 
 # Ignore Python-related files
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.log
-*.env
-
-# Ignore virtual environment directories
-env/
-venv/
-
-# Ignore any local IDE/project files
-.vscode/
-.idea/
-*.swp
-
-# Ignore other temporary files
-*.tmp
-*.bak
-*.old
