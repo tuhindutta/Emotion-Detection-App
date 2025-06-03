@@ -28,7 +28,7 @@ Emotion Detection App is a Flask-based web application that processes user-uploa
   <tbody>
     <tr>
       <td>Language</td>
-      <td>Python 3.10</td>
+      <td>Python</td>
     </tr>
     <tr>
       <td>Backend</td>
