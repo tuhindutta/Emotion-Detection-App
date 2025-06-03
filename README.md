@@ -102,4 +102,4 @@ emotion_detection_app/
 - Support webcam-based live stream input.
 
 ## 🤝 Contributing
-Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes. For more details and updates, visit the [GitHub Repository](https://github.com/tuhindutta/emotion_detection_app).
+Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes. For more details and updates, visit the [GitHub Repository](https://github.com/tuhindutta/Emotion-Detection-App).
